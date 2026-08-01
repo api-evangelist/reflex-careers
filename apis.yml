@@ -1,8 +1,27 @@
 aid: reflex-careers
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reflex-careers.png
 name: Reflex Careers
-description: Reflex Careers is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Reflex (Reflex Careers) is an on-demand labor platform for retail stores,
+  connecting brands and store operators with vetted, background-checked associates
+  for short-notice shift coverage. The platform handles employer-of-record
+  responsibilities including payroll, tax withholding, and compliance, lets
+  retailers post shifts with as little as two hours' notice, and uses a two-way
+  review system to build worker track records and brand-specific training per shift.
+  Reflex serves retail brands including Ariat, Faherty, Fossil, and Everlane and is
+  backed by Canaan Partners. Added to the API Evangelist network from the Canaan
+  Partners portfolio; as of this enrichment pass Reflex publishes no public API,
+  developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/reflex-careers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Staffing
+- Retail
+- Labor Marketplace
+- On-Demand Workforce
+- Workforce Management
+- Gig Economy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/reflex-careers-domain-security.yml
+- type: Website
+  url: https://www.workreflex.com/
+- type: SignUp
+  url: https://reflex.careers/app/signup
+- type: Login
+  url: https://reflex.careers/app/login
+- type: Support
+  url: https://www.workreflex.com/contact
+- type: PrivacyPolicy
+  url: https://www.workreflex.com/privacy
+- type: TermsOfService
+  url: https://www.workreflex.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
